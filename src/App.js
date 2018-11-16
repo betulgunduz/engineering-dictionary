@@ -24,13 +24,13 @@ class TranslateInput extends Component {
     render() {
         return (
             <div>
-                <input onChange={(e) => {
+                <input className="form" onChange={(e) => {
                     this.setState({myWord: e.target.value.toLowerCase()})
                 }}/>
                 <h1>{this.state.myWord}</h1>
-                <button onClick={() => {
+                <button className="btn" onClick={() => {
                     this.clickTranslate()
-                }}>Translate!!
+                }}>Translate!
                 </button>
                 <h1>{this.state.translatedWord}</h1>
             </div>
