@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.2ceaed80.chunk.css",
-  "main.js": "/static/js/main.9a1e2d77.chunk.js",
-  "main.js.map": "/static/js/main.9a1e2d77.chunk.js.map",
-  "static/js/1.0cd6058f.chunk.js": "/static/js/1.0cd6058f.chunk.js",
-  "static/js/1.0cd6058f.chunk.js.map": "/static/js/1.0cd6058f.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.2ceaed80.chunk.css.map": "/static/css/main.2ceaed80.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.95e2afbc355cb3d28ba07efb60a37b27.js": "/precache-manifest.95e2afbc355cb3d28ba07efb60a37b27.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/engineering-dictionary/static/css/main.2ceaed80.chunk.css",
+  "main.js": "/engineering-dictionary/static/js/main.b28150a4.chunk.js",
+  "main.js.map": "/engineering-dictionary/static/js/main.b28150a4.chunk.js.map",
+  "static/js/1.0cd6058f.chunk.js": "/engineering-dictionary/static/js/1.0cd6058f.chunk.js",
+  "static/js/1.0cd6058f.chunk.js.map": "/engineering-dictionary/static/js/1.0cd6058f.chunk.js.map",
+  "runtime~main.js": "/engineering-dictionary/static/js/runtime~main.04531024.js",
+  "runtime~main.js.map": "/engineering-dictionary/static/js/runtime~main.04531024.js.map",
+  "static/css/main.2ceaed80.chunk.css.map": "/engineering-dictionary/static/css/main.2ceaed80.chunk.css.map",
+  "index.html": "/engineering-dictionary/index.html",
+  "precache-manifest.4a3c357c975efd08667fe6e66c6a62e7.js": "/engineering-dictionary/precache-manifest.4a3c357c975efd08667fe6e66c6a62e7.js",
+  "service-worker.js": "/engineering-dictionary/service-worker.js"
 }
