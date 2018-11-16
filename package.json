@@ -2,7 +2,7 @@
   "name": "engineering-dictionary",
   "version": "0.1.0",
   "private": true,
-  "home": "http://betulgunduz.github.io/engineering-dictionary",
+  "homepage": "http://betulgunduz.github.io/engineering-dictionary",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
