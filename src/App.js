@@ -12,13 +12,50 @@ class TranslateInput extends Component {
 
     dict = {
         engineer: 'mühendis',
-        mühendis: 'engineer'
+        mühendis: 'engineer',
+        efficiency: 'verimlilik',
+        verimlilik: 'efficiency',
+        empirical: 'deneysel',
+        deneysel: 'empirical',
+        chip: 'yontmak',
+        yontmak: 'chip',
+        force: 'kuvvet',
+        kuvvet: 'force',
+        friction: 'sürtünme',
+        sürtünme: 'friction',
+        'block and tackle': 'palanga takımı',
+        'palanga takımı': 'block and tackle',
+        lever: 'kaldıraç',
+        'kaldıraç': 'lever',
+        fulcrum: 'dayanak',
+        dayanak: 'fulcrum',
+        alloy: 'alaşım',
+        alaşım: 'alloy',
+        angle: 'köşe',
+        köşe: 'angle',
+        beam: 'kiriş',
+        kiriş: 'beam',
+        belt: 'kayış',
+        kayış: 'belt',
+        bolt: 'civata',
+        civata: 'bolt',
+        carbide: 'karbür',
+        karbür: 'carbide',
+        cement: 'çimento',
+        çimento: 'cement',
+        
+
 
     }
 
     clickTranslate() {
         let val = this.dict[this.state.myWord];
-        this.setState({translatedWord: val})
+        if(val === undefined) {
+            this.setState({translatedWord: "Not in the database, will be added soon"})
+        } else {
+            this.setState({translatedWord: val})
+        }
+        
     }
 
     render() {
