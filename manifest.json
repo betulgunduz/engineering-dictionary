@@ -4,6 +4,7 @@
   "theme_color": "#03a9f4",
   "background_color": "#bbbbbb",
   "display": "standalone",
+  "orientation": "portrait",
   "Scope": "/",
   "start_url": "/engineering-dictionary",
   "icons": [
