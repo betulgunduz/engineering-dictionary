@@ -43,7 +43,7 @@ class TranslateInput extends Component {
         karbür: 'carbide',
         cement: 'çimento',
         çimento: 'cement',
-        
+        betül: 'dünyanın en güzel kızı'
 
 
     }
