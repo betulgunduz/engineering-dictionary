@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/engineering-dictionary/static/css/main.ffec4269.chunk.css"
   },
   {
-    "revision": "31e49b683b8e9fe41ed7dd464188d2fd",
+    "revision": "0f79cadaf8b23482774f9e6db4e76b1a",
     "url": "/engineering-dictionary/index.html"
   }
 ];
