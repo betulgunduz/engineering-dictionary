@@ -43,10 +43,11 @@ class TranslateInput extends Component {
         karbür: 'carbide',
         cement: 'çimento',
         çimento: 'cement',
-        betül: 'dünyanın en güzel kızı'
-
-
-    }
+        betül: 'dünyanın en güzel kızı',
+        'dünyanın en güzel kızı': 'betül',
+        mirkan: 'Uygulamamızı kullandığınız için teşekkür ederiz'
+      
+      }
 
     clickTranslate() {
         let val = this.dict[this.state.myWord];
