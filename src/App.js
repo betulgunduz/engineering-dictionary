@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
+import Emoji from './Emoji'
 
 class TranslateInput extends Component {
     constructor(props) {
@@ -67,8 +68,6 @@ class TranslateInput extends Component {
         'kaldıraç': 'lever',
         fulcrum: 'dayanak',
         dayanak: 'fulcrum',
-        cement: 'çimento',
-        çimento: 'cement',  
         'key': 'kama',
         'kama': 'key',
         'key seat': 'kama yatağı',
@@ -223,8 +222,6 @@ class TranslateInput extends Component {
         'pik demir': 'pig iron',
         'pin': 'pim, perno, muylu, şiş, iğne',
         'pim': 'pin',
-        'pincers': 'kerpeten',
-        'kerpeten': 'pincers',
         'pinion': 'küçük dişli',
         'küçük dişli': 'pinion',
         'pipe': 'boru',
@@ -334,9 +331,18 @@ class TranslateInput extends Component {
                 <h1>{this.state.myWord}</h1>
                 <button className="btn" onClick={() => {
                     this.clickTranslate()
-                }}>Translate!
+                }}><div>
+                <Emoji symbol="🇹🇷" label="tr_flag"/>
+                <Emoji symbol="↔️" label="leftright_arrow"/>
+                <Emoji symbol="🇬🇧" label="gb_flag"/>
+                </div>
                 </button>
                 <h1>{this.state.translatedWord}</h1>
+                
+                <div className='footer'>
+                    <p>Engineering Dictionary is a free web app for students to learn new engineering terms by translating from English to Turkish or Turkish to English</p>
+                </div>
+
             </div>
         );
     }
