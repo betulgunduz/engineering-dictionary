@@ -103,3 +103,7 @@ button:active {
 		outline: 0;
 		padding: 22px 18px;
 }
+
+.footer {
+  padding: 10px;
+}
