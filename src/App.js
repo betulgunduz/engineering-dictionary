@@ -50,12 +50,12 @@ class TranslateInput extends Component {
         'esneklik': 'flexibility',
         'fading': 'sönümleme',
         'hindrance': 'engel',
-          engineer: 'mühendis',
-          mühendis: 'engineer',
-          efficiency: 'verimlilik',
-          verimlilik: 'efficiency',
-          empirical: 'deneysel',
-          deneysel: 'empirical',
+        engineer: 'mühendis',
+        mühendis: 'engineer',
+        efficiency: 'verimlilik',
+        verimlilik: 'efficiency',
+        empirical: 'deneysel',
+        deneysel: 'empirical',
         chip: 'yontmak',
         yontmak: 'chip',
         force: 'kuvvet',
@@ -325,17 +325,18 @@ class TranslateInput extends Component {
     render() {
         return (
             <div>
+                <div className="emoji">
+                <Emoji symbol="🇹🇷" label="tr_flag"/>
+                <Emoji symbol="↔️" label="leftright_arrow"/>
+                <Emoji symbol="🇬🇧" label="gb_flag"/>
+                </div>
                 <input className="form" onChange={(e) => {
                     this.setState({myWord: e.target.value.toLowerCase()})
                 }}/>
                 <h1>{this.state.myWord}</h1>
                 <button className="btn" onClick={() => {
                     this.clickTranslate()
-                }}><div>
-                <Emoji symbol="🇹🇷" label="tr_flag"/>
-                <Emoji symbol="↔️" label="leftright_arrow"/>
-                <Emoji symbol="🇬🇧" label="gb_flag"/>
-                </div>
+                }}>Translate!
                 </button>
                 <h1>{this.state.translatedWord}</h1>
                 
